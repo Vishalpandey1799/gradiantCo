@@ -144,15 +144,10 @@ input{
     
 }
 
-
-/* Base styles */
-/* Keep your existing base styles here */
-
-/* Media query for mobile phones */
+ 
 @media screen and (max-width: 480px) {
     body {
-        /* Adjust body styles for smaller screens */
-        /* For example: */
+ 
         flex-direction: column;
         height: 100vh;
         width: 100vw;

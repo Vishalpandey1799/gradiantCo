@@ -23,7 +23,7 @@ const gradiantColors = () =>{
 }
 
 
-// console.log(gradiantColors());
+ 
 let colorCode = "#5474a7";
 let colorcode = "#784245";
 let gradiantMix = () =>{
@@ -32,6 +32,8 @@ let gradiantMix = () =>{
     leftClick.textContent = `${colorCode}`
     leftClick.style.backgroundColor = `${colorCode}`;
     body.style.backgroundImage = `linear-gradient(to right , ${colorCode} , ${colorcode})`;
+   copytoClipboard.textContent = `linear-gradient(to right , ${colorCode} , ${colorcode})`;  
+
     
 }
 let gradiantmix = () =>{
@@ -42,7 +44,7 @@ let gradiantmix = () =>{
 
     body.style.backgroundImage = `linear-gradient(to right , ${colorCode} , ${colorcode})`;
 
-
+    copytoClipboard.textContent = `linear-gradient(to right , ${colorCode} , ${colorcode})`;
 }
  
 

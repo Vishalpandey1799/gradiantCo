@@ -17,9 +17,9 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    /* background-image: linear-gradient(to right , #5474a7 , #784245);
-     */
-     background-image: linear-gradient(to right , #0d4a70 , #91d9da);
+    background-image: linear-gradient(to right , #5474a7 , #784245);
+    
+   
     flex-direction: column;
     gap: 15px;
      

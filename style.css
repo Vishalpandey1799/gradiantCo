@@ -1,0 +1,196 @@
+
+
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+   
+ }
+
+
+
+ body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to right , #5474a7 , #784245);
+    /* background:#729468; */
+    flex-direction: column;
+    gap: 15px;
+     
+ }
+
+
+section{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    color: white;
+    gap: 20px;
+   display: none;
+    
+
+}
+
+.formed{
+    position: absolute;
+    top: 10%;
+    left:40%;
+      
+    
+}
+ 
+
+.btn{
+    background-color: transparent;
+    border: 0;
+    outline: 0;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    padding:  9px 20px;
+    border-bottom: 3px solid ;
+    border-radius: 10px;
+
+}
+
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 5px;
+    
+}
+
+
+button{
+    padding: 15px 30px;
+    outline: 0;
+    border: 0;
+text-align: center;
+margin: 0 5px;
+font-weight: bolder;
+border-radius:  0px 10px;
+color: white;
+cursor: pointer;
+ 
+ text-transform: uppercase;
+
+}
+
+.left{
+    border-left: 3px solid rgb(51, 0, 255);
+    background-color: cadetblue;
+}
+
+.right{
+    border-right: 3px solid rgb(62, 235, 119);
+    background-color:chocolate;
+}
+
+.gradiantCopy{
+     
+    padding: 12px 20px;
+    border-radius: 10px 0;
+    border-left: 3px solid cornflowerblue;
+    border-right: 3px solid rgb(113, 22, 240);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    max-width: 400px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    cursor: pointer;
+
+
+
+
+}
+
+.copy{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     
+     
+}
+
+input{
+    padding: 7px 15px;
+    border-radius: 10px;
+    width: 280px;
+    border: 0;
+    outline: 0;
+    background-color: transparent;
+     box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+     color: white;
+     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+     letter-spacing: 1px;
+    
+     top: 50px;
+     left: 40%;
+     border-bottom: 3px solid #5474a7;
+
+}
+
+ 
+
+::placeholder{
+    color: white;
+    font-size: 15px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+     letter-spacing: 1px;
+    
+}
+
+
+/* Base styles */
+/* Keep your existing base styles here */
+
+/* Media query for mobile phones */
+@media screen and (max-width: 480px) {
+    body {
+        /* Adjust body styles for smaller screens */
+        /* For example: */
+        flex-direction: column;
+        height: 100vh;
+        width: 100vw;
+    }
+
+    .formed {
+       
+        top: 50%;
+        left: 10%;
+        width: 90%; 
+         
+    }
+
+    .button {
+         
+        flex-direction: column;  
+    }
+
+    .button>button {
+       
+        margin: 5px 0; 
+        width: 150px;
+    }
+
+    .sec {
+       
+        padding: 10px; 
+    }
+
+    .gradiantCopy {
+        
+        padding: 8px;  
+        max-width: 90%; 
+    }
+
+    input {
+      
+        width: 90%;  
+    }
+}
+

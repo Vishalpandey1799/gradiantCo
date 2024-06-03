@@ -23,7 +23,7 @@ const gradiantColors = () =>{
 }
 
 
- 
+// console.log(gradiantColors());
 let colorCode = "#5474a7";
 let colorcode = "#784245";
 let gradiantMix = () =>{
@@ -32,8 +32,7 @@ let gradiantMix = () =>{
     leftClick.textContent = `${colorCode}`
     leftClick.style.backgroundColor = `${colorCode}`;
     body.style.backgroundImage = `linear-gradient(to right , ${colorCode} , ${colorcode})`;
-   copytoClipboard.textContent = `linear-gradient(to right , ${colorCode} , ${colorcode})`;  
-
+    copytoClipboard.textContent = `background-image: linear-gradient(to right , ${colorCode} , ${colorcode})`;
     
 }
 let gradiantmix = () =>{
@@ -43,8 +42,8 @@ let gradiantmix = () =>{
     rightClick.style.backgroundColor = `${colorcode}`;
 
     body.style.backgroundImage = `linear-gradient(to right , ${colorCode} , ${colorcode})`;
+    copytoClipboard.textContent = `background-image: linear-gradient(to right , ${colorCode} , ${colorcode})`;
 
-    copytoClipboard.textContent = `linear-gradient(to right , ${colorCode} , ${colorcode})`;
 }
  
 
@@ -58,9 +57,13 @@ clickBtn.addEventListener("click" , (e) =>{
         visible.style.display = "flex";
         formed.style.display = "none";
 
+    } else if(inputBox.value.trim().toLowerCase() === "no"){
+         alert("Kya Malik ! Sachiv Baniyega")
     }else{
-        alert("Kya malik ! Sachiv Bniyega ?");
+          alert("Write Something Bro 🙏")
     }
+
+    inputBox.value = "";
 });
 
 

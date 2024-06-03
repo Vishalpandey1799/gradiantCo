@@ -17,8 +17,9 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: linear-gradient(to right , #5474a7 , #784245);
-    /* background:#729468; */
+    /* background-image: linear-gradient(to right , #5474a7 , #784245);
+     */
+     background-image: linear-gradient(to right , #0d4a70 , #91d9da);
     flex-direction: column;
     gap: 15px;
      
@@ -42,7 +43,7 @@ section{
 .formed{
     position: absolute;
     top: 10%;
-    left:40%;
+    left:35%;
       
     
 }
@@ -95,7 +96,7 @@ cursor: pointer;
 }
 
 .gradiantCopy{
-     
+     text-transform: uppercase;
     padding: 12px 20px;
     border-radius: 10px 0;
     border-left: 3px solid cornflowerblue;
@@ -104,8 +105,8 @@ cursor: pointer;
     max-width: 400px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
     cursor: pointer;
-
-
+    font-size: 12px;
+     
 
 
 }
@@ -144,10 +145,11 @@ input{
     
 }
 
+
  
 @media screen and (max-width: 480px) {
     body {
- 
+        
         flex-direction: column;
         height: 100vh;
         width: 100vw;

@@ -52,7 +52,7 @@ rightClick.addEventListener("click", gradiantmix);
 clickBtn.addEventListener("click" , (e) =>{
     e.preventDefault();
     console.log("clicked");
-    if(inputBox.value === "yes"){
+    if(inputBox.value.trim().toLowerCase() === "yes"){
         visible.style.display = "flex";
         formed.style.display = "none";
 

@@ -58,9 +58,9 @@ clickBtn.addEventListener("click" , (e) =>{
         formed.style.display = "none";
 
     } else if(inputBox.value.trim().toLowerCase() === "no"){
-         alert("Kya Malik ! Sachiv Baniyega")
+         alert("Kya Malik ! Sachiv Baniyega");
     }else{
-          alert("Write Something Bro 🙏")
+          alert("Write Only Yes or No !");
     }
 
     inputBox.value = "";
